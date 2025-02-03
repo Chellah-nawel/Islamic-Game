@@ -62,20 +62,19 @@ img {
     font-size: larger;
     transform: translateY(-90%);
 }
-
 #line1{
     border: 1px solid #ada134;
     width: 0%;
     height: 180px;
     margin-top: 0%;
-    margin-left: 50px;
+    margin-left: 75px;
     position: absolute;
     overflow: hidden;
 }
 .fanous{
-    width: 100px;
+    width: 150px;
     height: auto;
-    margin-top: 170px;
+    margin-top: 150px;
     position:absolute;
     overflow: hidden;
 }
@@ -103,15 +102,15 @@ img {
     overflow: hidden;
 }
 .fanous-r{
-    width: 100px;
+    width: 150px;
     height: auto;
-    margin-top: 170px;
-    margin-left: 1156px;
+    margin-top: 150px;
+    margin-left: 1080px;
     position:absolute;
     overflow: hidden;
 }
 #line01{
-    margin-left: 1205px;
+    margin-left: 1155px;
     border: 1px solid #ada134;
     width: 0%;
     height: 180px;
@@ -123,12 +122,12 @@ img {
     width: 100px;
     height: auto;
     margin-top: 90px;
-    margin-left: 1087px;
+    margin-left: 1060px;
     position:absolute;
     overflow: hidden;
 }
 #line02{
-    margin-left: 1136px;
+    margin-left: 1110px;
     border: 1px solid #ada134;
     width: 0%;
     height: 180px;
