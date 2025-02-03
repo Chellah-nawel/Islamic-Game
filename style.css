@@ -6,15 +6,6 @@ body{
     overflow-x: hidden;
     
 }
-.container {
-    background-color: red;
-}
-
-@media (min-width: 62em) {
-    .container {
-        background-color: green;
-    }
-}
 
 @media (max-width: 768px) {
     .fanous, .fanous-2, .fanous-r, .fanous-2r {
