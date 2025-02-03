@@ -6,6 +6,30 @@ body{
     overflow-x: hidden;
     
 }
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+    .fanous, .fanous-2, .fanous-r, .fanous-2r {
+        width: 50%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #ayat-section {
+        font-size: 18px;
+    }
+
+    #Score p {
+        font-size: 18px;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .stars {
     position: absolute;
     width: 3px;
