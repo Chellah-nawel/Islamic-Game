@@ -89,7 +89,7 @@ function endQuiz() {
 
     // afficher un message 
     const tuxImage = document.createElement("img");
-    tuxImage.src = "images/punguin.png"; 
+    tuxImage.src = "punguin.png"; 
     tuxImage.alt = "Tux le pingouin";
     tuxImage.style.width = "150px";
     tuxImage.style.marginLeft = "550px";
