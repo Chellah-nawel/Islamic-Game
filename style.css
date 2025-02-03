@@ -1,0 +1,185 @@
+body{
+    background: linear-gradient(to bottom, #026554,#010a09);
+    min-height: 100vh;
+    overflow-y: auto;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+.stars {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: #ada134;
+    box-shadow: 
+        50px 100px #ada134, 150px 200px #ada134, 250px 50px #ada134, 
+        300px 300px #ada134, 500px 80px #ada134, 600px 150px #ada134,
+        120px 400px #ada134, 220px 150px #ada134, 390px 250px #ada134,
+        700px 350px #ada134, 800px 450px #ada134, 900px 550px #ada134,
+        500px 150px #ada134, 150px 300px #ada134, 250px 1500px #ada134, 
+        1120px 100px #ada134, 220px 150px #ada134, 30px 250px #ada134,
+        700px 350px #ada134, 800px 450px #ada134, 900px 550px #ada134,
+        50px 100px #ada134, 150px 200px #ada134, 250px 50px #ada134,
+        70vw 20vh gold, 80vw 60vh gold, 90vw 40vh gold, 
+        80vw 30vh gold, 90vw 90vh gold, 90vw 10vh gold,
+        300px 300px #ada134, 500px 80px #ada134, 60px 150px #ada134;
+    border-radius: 50%;
+    animation: twinkle 2s infinite alternate;
+}
+
+/* Twinkling animation */
+@keyframes twinkle {
+    0% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
+.explecation{
+    color: #D5C4A1;
+    text-align: center;
+    font-size: larger;
+    transform: translateY(-90%);
+}
+
+#line1{
+    border: 1px solid #ada134;
+    width: 0%;
+    height: 180px;
+    margin-top: 0%;
+    margin-left: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+.fanous{
+    width: 100px;
+    height: auto;
+    margin-top: 170px;
+    position:absolute;
+    overflow: hidden;
+}
+.second-fanous{
+    margin-top: 0%;
+    margin-left: 70px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.fanous-2{
+    width: 100px;
+    height: auto;
+    margin-top: 90px;
+    position:absolute;
+    overflow: hidden;
+}
+#line2{
+    height: 15%;
+    border: 1px solid #ada134;
+    width: 0%;
+    height: 180px;
+    margin-top: 0%;
+    margin-left: 50px;
+    position: absolute;
+    overflow: hidden;
+}
+.fanous-r{
+    width: 100px;
+    height: auto;
+    margin-top: 170px;
+    margin-left: 1156px;
+    position:absolute;
+    overflow: hidden;
+}
+#line01{
+    margin-left: 1205px;
+    border: 1px solid #ada134;
+    width: 0%;
+    height: 180px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+}
+.fanous-2r{
+    width: 100px;
+    height: auto;
+    margin-top: 90px;
+    margin-left: 1087px;
+    position:absolute;
+    overflow: hidden;
+}
+#line02{
+    margin-left: 1136px;
+    border: 1px solid #ada134;
+    width: 0%;
+    height: 180px;
+    margin-top: 0%;
+    position: absolute;
+    overflow: hidden;
+
+}
+.ramadan{
+    transform: translateY(-20%);
+    font-family: Sofia;
+    font-size: 100px;
+    text-align: center;
+    color: #F4D03F ;
+}
+#separate{
+    border: 1px solid #ada134;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+#ayat-section{
+    background-color:#026554;
+    padding: 15px;
+    border-radius: 15px;
+    width: 800px;
+    margin-left: 205px;
+    margin-top: 30px;
+
+    font-family: 'Noto Naskh Arabic', serif;
+    color: #D5C4A1;
+    direction:rtl;
+    font-size: larger;
+    text-align: center;
+}
+input[type="text"]{
+    color: #D5C4A1;
+    text-align: center;
+    border: solid #026554;
+    background-color: #026554;
+    width: 600px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+#submit{
+    border: solid #026554;
+    background-color: #026554;
+    padding: 10px;
+    width: 90px;
+    border-radius: 8px;
+    margin-left: 700px;
+    margin-top: 0px;
+    color: #D5C4A1;
+}
+#Score{
+    border: solid #026554;
+    background-color: #026554;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 85px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 450px;
+    transform: translateY(-100%);
+    color: #D5C4A1;
+}
+#feedback{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 15px;
+
+
+}
