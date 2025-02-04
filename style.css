@@ -8,22 +8,39 @@ body{
 }
 
 @media (max-width: 768px) {
+   
     img {
         max-width: 100%;
         height: auto;
     }
 
-    p {
-        font-size: 16px;
+    .explecation{
+        font-size: small;
+    }
+
+    .ramadan{
+        font-size: 80px;
+    }
+
+    input[type="text"]{
+        width: 200px;
+    }
+
+    #submit{
+        width: 50px;
+    }
+
+    #Score{
+        width: 65px;
+        height: 30px;
     }
 
     #ayat-section {
         font-size: 18px;
+        width: 15px;
+        font-size: small;
     }
 
-    #Score p {
-        font-size: 18px;
-    }
 }
 
 
