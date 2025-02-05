@@ -7,7 +7,7 @@ body{
     
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
    
     img {
         max-width: 100%;
@@ -41,7 +41,7 @@ body{
         font-size: small;
     }
 
-}
+}*/
 
 
 .stars {
@@ -73,35 +73,36 @@ body{
 .explecation{
     color: #D5C4A1;
     text-align: center;
-    font-size: larger;
+    font-size: 1.3rem;
     transform: translateY(-90%);
 }
+
 #line1{
     border: 1px solid #ada134;
     width: 0%;
-    height: 180px;
+    height: 30%;
     margin-top: 0%;
-    margin-left: 75px;
+    margin-left: 5.8%;
     position: absolute;
     overflow: hidden;
 }
 .fanous{
-    width: 150px;
+    width: 11.5%;
     height: auto;
-    margin-top: 150px;
+    margin-top: 11.5%;
     position:absolute;
     overflow: hidden;
 }
 .second-fanous{
     margin-top: 0%;
-    margin-left: 70px;
-    margin-right: 100px;
+    margin-left: 6%;
+    margin-right: 6%;
     overflow: hidden;
 }
 .fanous-2{
-    width: 100px;
+    width: 08%;
     height: auto;
-    margin-top: 90px;
+    margin-top: 8%;
     position:absolute;
     overflow: hidden;
 }
@@ -109,42 +110,42 @@ body{
     height: 15%;
     border: 1px solid #ada134;
     width: 0%;
-    height: 180px;
+    height: 30%;
     margin-top: 0%;
-    margin-left: 50px;
+    margin-left: 4%;
     position: absolute;
     overflow: hidden;
 }
 .fanous-r{
-    width: 150px;
+    width: 11.5%;
     height: auto;
     margin-top: 150px;
-    margin-left: 1080px;
+    margin-left: 86.3%;
     position:absolute;
     overflow: hidden;
 }
 #line01{
-    margin-left: 1155px;
+    margin-left: 92%;
     border: 1px solid #ada134;
     width: 0%;
-    height: 180px;
+    height: 30%;
     margin-top: 0%;
     position: absolute;
     overflow: hidden;
 }
 .fanous-2r{
-    width: 100px;
+    width: 8%;
     height: auto;
-    margin-top: 90px;
-    margin-left: 1060px;
+    margin-top: 8%;
+    margin-left: 84%;
     position:absolute;
     overflow: hidden;
 }
 #line02{
-    margin-left: 1110px;
+    margin-left: 88%;
     border: 1px solid #ada134;
     width: 0%;
-    height: 180px;
+    height: 30%;
     margin-top: 0%;
     position: absolute;
     overflow: hidden;
@@ -153,7 +154,7 @@ body{
 .ramadan{
     transform: translateY(-20%);
     font-family: Sofia;
-    font-size: 100px;
+    font-size: 8vw;
     text-align: center;
     color: #F4D03F ;
 }
@@ -164,59 +165,68 @@ body{
     display: flex;
     flex-direction: column;
 }
-#ayat-section{
-    background-color:#026554;
-    padding: 15px;
-    border-radius: 15px;
-    width: 800px;
-    margin-left: 205px;
-    margin-top: 30px;
+
+#ayat-section {
+    background-color: #026554;
+    padding: 1rem;
+    border-radius: 1rem; 
+    width: 50vw; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 2rem; 
 
     font-family: 'Noto Naskh Arabic', serif;
     color: #D5C4A1;
-    direction:rtl;
+    direction: rtl;
     font-size: larger;
     text-align: center;
 }
-input[type="text"]{
+
+input[type="text"] {
     color: #D5C4A1;
     text-align: center;
     border: solid #026554;
     background-color: #026554;
-    width: 600px;
-    padding: 15px;
-    border-radius: 15px;
-    margin-left: 300px;
-    margin-top: 10px;
+    width: 40vw;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.8rem;
+    display: block;
 }
+
 #submit{
     border: solid #026554;
     background-color: #026554;
-    padding: 10px;
-    width: 90px;
-    border-radius: 8px;
-    margin-left: 700px;
-    margin-top: 0px;
+    padding: 0.6rem;
+    width: 5.5rem;
+    border-radius: 0.5rem;
+    margin-left: 50em;
+    margin-top: auto;
     color: #D5C4A1;
+    display: block;
+    text-align: center;
 }
-#Score{
+
+#Score {
     border: solid #026554;
     background-color: #026554;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 85px;
-    height: 35px;
-    border-radius: 8px;
-    margin-left: 450px;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-left: 29em;
+    margin-right: auto;
     transform: translateY(-100%);
     color: #D5C4A1;
 }
-#feedback{
+
+#feedback {
     text-align: center;
     overflow: hidden;
-    margin-top: 15px;
-
-
+    margin-top: 1rem;
 }
